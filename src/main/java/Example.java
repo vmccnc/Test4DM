@@ -16,6 +16,11 @@ public class Example {
 		return "Hello!EEE!!!";
 	}
 	
+
+	@RequestMapping("/hello4")
+	public String hello4() {
+		return "Hello!4444EEE!!!";
+	}
 	
 
 	@RequestMapping("/hello3")
