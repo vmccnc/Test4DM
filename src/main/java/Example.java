@@ -17,6 +17,12 @@ public class Example {
 	}
 	
 	
+
+	@RequestMapping("/hello3")
+	public String hello3() {
+		return "Hello!3333EEE!!!";
+	}
+	
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(Example.class, args);
 	}
